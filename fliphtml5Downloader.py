@@ -424,7 +424,7 @@ def main():
     with open(pdf_path, "wb") as f:
         f.write(img2pdf.convert(pdf_images))
     print("The pdf named %s has been saved in your working directory." % pdf_path)
-    print("Thank you for using this script written by Engr Moaz Dev.")
+    print("Thank you for using this script.")
 
 
 if __name__ == "__main__":
